@@ -7,8 +7,19 @@ public class ArrayFun {
     int realBig;
     public ArrayFun(int[] nums)
     {
-        this.nums = nums;
-        this.mixedNums = nums;
+        this.nums = new int[nums.length];
+
+        for (int i = 0; i < nums.length; i++) {
+            this.nums[i] = nums[i];
+        }
+
+
+
+        this.mixedNums = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            mixedNums[i] = nums[i];
+        }
+
         this.arrayMixup();
 
     }
@@ -35,30 +46,35 @@ public class ArrayFun {
         }
     }
 
-    public int greatestDiff()
-    {
-
-        int numsSmallest = nums[0];
-        int numsBiggest = nums[0];
-        int mixedSmallest = mixedNums[0];
-        int mixedBiggest = mixedNums[0];
-        for (int i = 0; i < nums.length - 1; i++) {
-            if(nums[i] < numsSmallest)
-                numsSmallest = nums[i];
-            if(nums[i] > numsBiggest)
-                numsBiggest = nums[i];
+    public int greatestDiff(){
+        int answer;
+        int biggestNum = nums[0];
+        int smallestNum = nums[0];
+        int biggestMix = nums[0];
+        int smallestMix = nums[0];
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] > biggestNum){
+                biggestNum = nums[i];
+            }
+            if(nums[i] < smallestNum){
+                smallestNum = nums[i];
+            }
+            if(mixedNums[i] > biggestMix){
+                biggestMix = mixedNums[i];
+            }
+            if(mixedNums[i] < smallestMix){
+                smallestMix = mixedNums[i];
+            }
         }
-
-        for (int i = 0; i < mixedNums.length - 1; i++) {
-
-            if(mixedNums[i] < mixedSmallest)
-                mixedSmallest = mixedNums[i];
-            if(mixedNums[i] > mixedBiggest)
-                mixedBiggest = mixedNums[i];
+        if((smallestMix - biggestNum) * -1 > (smallestNum - biggestMix) * -1){
+            answer = (smallestMix - biggestNum) * -1;
         }
-        if(((mixedSmallest - numsBiggest)* -1) > (numsSmallest - mixedBiggest)*1){
-            return (mixedSmallest - numsBiggest)*-1;
+        else{
+            answer = (smallestNum - biggestMix) * -1;
         }
-        return (mixedSmallest - mixedBiggest);
+        return answer;
     }
+
+
 }
+
