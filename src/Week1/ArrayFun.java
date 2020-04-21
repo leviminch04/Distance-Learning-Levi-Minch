@@ -18,7 +18,7 @@ public class ArrayFun {
     }
 
     public int[] getNums() {
-        return nums;
+        return nums; 
     }
 
     public void arrayMixup(){

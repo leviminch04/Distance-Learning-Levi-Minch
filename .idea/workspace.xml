@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d58d426-b13a-4dc1-ba9a-431e0245b786" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/FRQ1/foodCertification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/FRQ2/LargeMeetingRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/FRQ2/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/FRQ2/StandardRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/FRQ3/FuelDepot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/ArrayFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/ArrayFun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -113,9 +121,25 @@
       <option name="presentableId" value="Default" />
       <updated>1586809155980</updated>
     </task>
+    <task id="LOCAL-00001" summary="cxd zv">
+      <created>1587071393826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587071393826</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cxd zv" />
+    <option name="LAST_COMMIT_MESSAGE" value="cxd zv" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2431" y="28" key="CommitChangelistDialog2" timestamp="1587071393217">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2431" y="28" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587071393217" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1587068189768">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -156,6 +180,10 @@
     </state>
     <state width="1877" height="326" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586935520841" />
     <state width="1877" height="326" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587068139119" />
+    <state x="2472" y="248" key="Vcs.Push.Dialog.v2" timestamp="1587071395791">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587071395791" />
     <state x="2543" y="225" key="search.everywhere.popup" timestamp="1586829252730">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
