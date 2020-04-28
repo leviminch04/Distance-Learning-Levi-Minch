@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d58d426-b13a-4dc1-ba9a-431e0245b786" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Week3/FRQ1/PoemLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week3/FRQ1/PoemStanza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week3/FRQ2/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/FRQ2/Airport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/FRQ3/WordPairList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587430534465</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finish Week 3">
+      <created>1588008845989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588008845989</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,10 +146,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Finish Week 3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="511" y="28" key="CommitChangelistDialog2" timestamp="1587430533917">
+    <state x="511" y="28" key="CommitChangelistDialog2" timestamp="1588008845439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="511" y="28" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587430533917" />
+    <state x="511" y="28" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588008845439" />
     <state x="2431" y="28" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587071393217" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1587068189768">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -189,10 +195,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="226" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587430550484" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1587430537364">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1588008848801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587430537364" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588008848801" />
     <state x="2472" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587071395791" />
     <state x="2543" y="225" key="search.everywhere.popup" timestamp="1586829252730">
       <screen x="1920" y="0" width="1920" height="1040" />
